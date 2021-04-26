@@ -1,0 +1,99 @@
+<circuit noLinAcc="5" reactStep="50" Simu_Step_nS="1000" type="simulide_0.4" Speed_per="100" animate="0" Speed_sps="1000000">
+
+Unique  Id: SR04-11: 
+Circuit Id: SR04-21
+<item itemtype="SR04" x="-84" valLabRot="0" valLabely="0" circRot="1.5740133066418435e-316" boardRot="-1000000" labely="-48" circPos="0,0" id="SR04-21" boardPos="-1e+06,-1e+06" vflip="1" objectName="SR04-11" labelx="-16" Show_id="false" y="-320" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Voltage Source-10: 
+Circuit Id: Voltage Source-32
+<item itemtype="Voltage Source" x="-248" valLabRot="0" valLabely="10" circRot="6.5781869519923442e-313" boardRot="-1000000" labely="-80" circPos="0,0" Show_Volt="true" id="Voltage Source-32" boardPos="-1e+06,-1e+06" vflip="1" objectName="Voltage Source-10" labelx="-40" Show_id="false" Unit=" V" Voltage="5" y="-344" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="-26"/>
+
+Unique  Id: Rail-9: 
+Circuit Id: Rail-17
+<item itemtype="Rail" x="-196" valLabRot="0" valLabely="8" circRot="0" boardRot="-1000000" labely="-24" circPos="0,0" Show_Volt="true" id="Rail-17" boardPos="-1e+06,-1e+06" vflip="1" objectName="Rail-9" labelx="-16" Show_id="false" Unit=" V" Voltage="5" y="-180" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="-16"/>
+
+Unique  Id: Voltage Source-8: 
+Circuit Id: Voltage Source-32
+<item itemtype="Voltage Source" x="-696" valLabRot="0" valLabely="10" circRot="6.5781869519923442e-313" boardRot="-1000000" labely="-80" circPos="0,0" Show_Volt="true" id="Voltage Source-32" boardPos="-1e+06,-1e+06" vflip="1" objectName="Voltage Source-8" labelx="-40" Show_id="false" Unit=" V" Voltage="5" y="-340" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="-26"/>
+
+Unique  Id: SR04-7: 
+Circuit Id: SR04-21
+<item itemtype="SR04" x="-508" valLabRot="0" valLabely="0" circRot="1.5740133066418435e-316" boardRot="-1000000" labely="-48" circPos="0,0" id="SR04-21" boardPos="-1e+06,-1e+06" vflip="1" objectName="SR04-7" labelx="-16" Show_id="false" y="-356" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Arduino Uno-6: 
+Circuit Id: Arduino Uno-1
+<item itemtype="Arduino" Auto_Load="false" x="-424" Program="Serial_Ultrassonico/Serial_Ultrassonico.ino.standard.hex" valLabRot="0" valLabely="0" Init_gdb="false" circRot="1.9775835172757073e-316" boardRot="-1000000" labely="-15" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," circPos="0,0" id="Arduino Uno-1" Mhz="16" boardPos="-1e+06,-1e+06" vflip="1" objectName="Arduino Uno-6" labelx="65" Show_id="true" y="-216" rotation="0" hflip="1" mainComp="false" eeprom="58,49,48,48,48,48,48,48,48,48,67,57,52,54,50,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,55,48,10,58,49,48,48,48,49,48,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,51,56,10,58,49,48,48,48,50,48,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,51,48,48,52,55,69,10,58,49,48,48,48,51,48,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,49,56,10,58,49,48,48,48,52,48,48,48,48,67,57,52,69,54,48,51,48,67,57,52,56,65,48,48,48,67,57,52,66,52,48,51,48,67,57,52,56,69,48,51,55,53,10,58,49,48,48,48,53,48,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,70,56,10,58,49,48,48,48,54,48,48,48,48,67,57,52,56,65,48,48,48,67,57,52,56,65,48,48,48,48,48,48,48,48,48,48,50,51,48,48,50,54,48,48,70,51,10,58,49,48,48,48,55,48,48,48,50,57,48,48,48,48,48,48,48,48,48,48,50,52,48,48,50,55,48,48,50,65,48,48,48,48,48,48,48,48,48,48,69,50,10,58,49,48,48,48,56,48,48,48,50,53,48,48,50,56,48,48,50,66,48,48,48,52,48,52,48,52,48,52,48,52,48,52,48,52,48,52,48,50,48,50,68,52,10,58,49,48,48,48,57,48,48,48,48,50,48,50,48,50,48,50,48,51,48,51,48,51,48,51,48,51,48,51,48,49,48,50,48,52,48,56,49,48,50,48,48,55,10,58,49,48,48,48,65,48,48,48,52,48,56,48,48,49,48,50,48,52,48,56,49,48,50,48,48,49,48,50,48,52,48,56,49,48,50,48,48,48,48,48,49,50,10,58,49,48,48,48,66,48,48,48,48,48,48,56,48,48,48,50,48,49,48,48,48,48,48,51,48,52,48,55,48,48,48,48,48,48,48,48,48,48,48,48,50,55,10,58,49,48,48,48,67,48,48,48,48,48,48,48,51,49,48,53,49,49,50,52,49,70,66,69,67,70,69,70,68,56,69,48,68,69,66,70,67,68,66,70,52,57,10,58,49,48,48,48,68,48,48,48,49,49,69,48,65,48,69,48,66,49,69,48,69,48,69,70,70,70,69,48,48,50,67,48,48,53,57,48,48,68,57,50,55,65,10,58,49,48,48,48,69,48,48,48,65,69,51,54,66,49,48,55,68,57,70,55,50,50,69,48,65,69,69,54,66,49,69,48,48,49,67,48,49,68,57,50,48,68,10,58,49,48,48,48,70,48,48,48,65,56,51,52,66,50,48,55,69,49,70,55,49,48,69,48,67,50,69,54,68,48,69,48,48,52,67,48,50,49,57,55,67,70,10,58,49,48,48,49,48,48,48,48,70,69,48,49,48,69,57,52,70,48,48,55,67,49,51,54,68,49,48,55,67,57,70,55,48,69,57,52,67,53,48,53,53,67,10,58,49,48,48,49,49,48,48,48,48,67,57,52,70,54,48,55,48,67,57,52,48,48,48,48,65,70,57,50,66,70,57,50,67,70,57,50,68,70,57,50,51,69,10,58,49,48,48,49,50,48,48,48,69,70,57,50,70,70,57,50,48,70,57,51,49,70,57,51,67,70,57,51,68,70,57,51,54,67,48,49,55,66,48,49,65,67,10,58,49,48,48,49,51,48,48,48,56,66,48,49,48,52,48,70,49,53,49,70,69,66,48,49,53,69,48,49,65,69,49,56,66,70,48,56,67,48,49,55,51,68,10,58,49,48,48,49,52,48,48,48,68,49,48,55,53,57,70,48,54,57,57,49,68,54,48,49,69,68,57,49,70,67,57,49,48,49,57,48,70,48,56,49,66,48,10,58,49,48,48,49,53,48,48,48,69,48,50,68,67,54,48,49,48,57,57,53,56,57,50,66,55,57,70,55,67,53,48,49,68,70,57,49,67,70,57,49,55,51,10,58,49,48,48,49,54,48,48,48,49,70,57,49,48,70,57,49,70,70,57,48,69,70,57,48,68,70,57,48,67,70,57,48,66,70,57,48,65,70,57,48,68,53,10,58,49,48,48,49,55,48,48,48,48,56,57" Logic_Symbol="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Servo-5: 
+Circuit Id: Servo-14
+<item itemtype="Servo" x="-664" valLabRot="0" valLabely="0" Speed="0.20000000000000001" circRot="3.7030051656995778e+247" boardRot="-1000000" labely="-40" circPos="0,0" id="Servo-14" boardPos="-1e+06,-1e+06" vflip="1" objectName="Servo-5" labelx="-16" Show_id="true" y="-108" rotation="-360" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Ground-4: 
+Circuit Id: Ground-15
+<item itemtype="Ground" x="-520" valLabRot="0" valLabely="0" circRot="-5.4861292803319049e+303" boardRot="-1000000" labely="8" circPos="0,0" id="Ground-15" boardPos="-1e+06,-1e+06" vflip="1" objectName="Ground-4" labelx="-16" Show_id="false" y="8" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Rail-3: 
+Circuit Id: Rail-17
+<item itemtype="Rail" x="-644" valLabRot="0" valLabely="8" circRot="0" boardRot="-1000000" labely="-24" circPos="0,0" Show_Volt="true" id="Rail-17" boardPos="-1e+06,-1e+06" vflip="1" objectName="Rail-3" labelx="-16" Show_id="false" Unit=" V" Voltage="5" y="8" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="-16"/>
+
+Unique  Id: Servo-2: 
+Circuit Id: Servo-14
+<item itemtype="Servo" x="-16" valLabRot="0" valLabely="0" Speed="0.20000000000000001" circRot="3.7030051656995778e+247" boardRot="-1000000" labely="-40" circPos="0,0" id="Servo-14" boardPos="-1e+06,-1e+06" vflip="1" objectName="Servo-2" labelx="-16" Show_id="true" y="-60" rotation="-360" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Ground-1: 
+Circuit Id: Ground-15
+<item itemtype="Ground" x="-248" valLabRot="0" valLabely="0" circRot="-5.4861292803319049e+303" boardRot="-1000000" labely="8" circPos="0,0" id="Ground-15" boardPos="-1e+06,-1e+06" vflip="1" objectName="Ground-1" labelx="-16" Show_id="false" y="-76" rotation="-180" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: SerialTerm-12: 
+Circuit Id: SerialTerm-36
+<item itemtype="SerialTerm" x="-424" Mcu_Uart="1" valLabRot="0" valLabely="0" posx="2489" circRot="0" boardRot="-1000000" posy="102" labely="-24" circPos="0,0" id="SerialTerm-36" boardPos="-1e+06,-1e+06" vflip="1" objectName="SerialTerm-12" labelx="-16" Show_id="false" sizex="669" y="-216" sizey="254" rotation="0" hflip="1" mainComp="false" Mcu_Id="Arduino Uno-6" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-13: 
+Circuit Id: Connector-24
+<item itemtype="Connector" x="-500" valLabRot="0" valLabely="0" enodeid="Circ_eNode-14" circRot="0" boardRot="-1000000" labely="-24" pointList="-500,-308,-500,-160,-416,-160" circPos="0,0" id="Connector-24" endpinid="Arduino Uno-6-PD5" startpinid="SR04-7-outpin" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-13" labelx="-16" Show_id="false" y="-308" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-15: 
+Circuit Id: Connector-33
+<item itemtype="Connector" x="-680" valLabRot="0" valLabely="0" enodeid="Circ_eNode-16" circRot="0" boardRot="-1000000" labely="-24" pointList="-680,-340,-680,-380,-596,-380" circPos="0,0" id="Connector-33" endpinid="SR04-7-inpin" startpinid="Voltage Source-8-outPin" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-15" labelx="-16" Show_id="false" y="-340" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-17: 
+Circuit Id: Connector-14
+<item itemtype="Connector" x="-416" valLabRot="0" valLabely="0" enodeid="Circ_eNode-18" circRot="0" boardRot="-1000000" labely="-24" pointList="-416,-168,-508,-168,-508,-308" circPos="0,0" id="Connector-14" endpinid="SR04-7-trigpin" startpinid="Arduino Uno-6-PD4" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-17" labelx="-16" Show_id="false" y="-168" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-19: 
+Circuit Id: Connector-25
+<item itemtype="Connector" x="-180" valLabRot="0" valLabely="0" enodeid="Circ_eNode-20" circRot="0" boardRot="-1000000" labely="-24" pointList="-180,-180,-180,-76,-64,-76" circPos="0,0" id="Connector-25" endpinid="Servo-2-in0" startpinid="Rail-9-outnod" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-19" labelx="-16" Show_id="false" y="-180" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-21: 
+Circuit Id: Connector-31
+<item itemtype="Connector" x="-416" valLabRot="0" valLabely="0" enodeid="Circ_eNode-22" circRot="0" boardRot="-1000000" labely="-24" pointList="-416,-144,-556,-144,-556,-256,-84,-256,-84,-272" circPos="0,0" id="Connector-31" endpinid="SR04-11-trigpin" startpinid="Arduino Uno-6-PD7" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-21" labelx="-16" Show_id="false" y="-144" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-23: 
+Circuit Id: Connector-32
+<item itemtype="Connector" x="-416" valLabRot="0" valLabely="0" enodeid="Circ_eNode-24" circRot="0" boardRot="-1000000" labely="-24" pointList="-416,-152,-536,-152,-536,-248,-76,-248,-76,-272" circPos="0,0" id="Connector-32" endpinid="SR04-11-outpin" startpinid="Arduino Uno-6-PD6" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-23" labelx="-16" Show_id="false" y="-152" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-25: 
+Circuit Id: Connector-39
+<item itemtype="Connector" x="-172" valLabRot="0" valLabely="0" enodeid="Circ_eNode-26" circRot="0" boardRot="-1000000" labely="-24" pointList="-172,-344,-232,-344" circPos="0,0" id="Connector-39" endpinid="Voltage Source-10-outPin" startpinid="SR04-11-inpin" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-25" labelx="-16" Show_id="false" y="-344" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-27: 
+Circuit Id: Connector-34
+<item itemtype="Connector" x="-416" valLabRot="0" valLabely="0" enodeid="Circ_eNode-28" circRot="0" boardRot="-1000000" labely="-24" pointList="-416,-112,-500,-112,-500,-24,-488,-24,-488,64,-244,64,-244,-44,-64,-44" circPos="0,0" id="Connector-34" endpinid="Servo-2-in2" startpinid="Arduino Uno-6-PB2" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-27" labelx="-16" Show_id="false" y="-112" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-29: 
+Circuit Id: Connector-24
+<item itemtype="Connector" x="-248" valLabRot="0" valLabely="0" enodeid="Circ_eNode-30" circRot="0" boardRot="-1000000" labely="-24" pointList="-248,-60,-64,-60" circPos="0,0" id="Connector-24" endpinid="Servo-2-in1" startpinid="Ground-1-Gnd" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-29" labelx="-16" Show_id="false" y="-60" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-31: 
+Circuit Id: Connector-15
+<item itemtype="Connector" x="-520" valLabRot="0" valLabely="0" enodeid="Circ_eNode-32" circRot="0" boardRot="-1000000" labely="-24" pointList="-520,-8,-520,-40,-756,-40,-756,-108,-712,-108" circPos="0,0" id="Connector-15" endpinid="Servo-5-in1" startpinid="Ground-4-Gnd" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-31" labelx="-16" Show_id="false" y="-8" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-33: 
+Circuit Id: Connector-17
+<item itemtype="Connector" x="-628" valLabRot="0" valLabely="0" enodeid="Circ_eNode-34" circRot="0" boardRot="-1000000" labely="-24" pointList="-628,8,-744,8,-744,-124,-712,-124" circPos="0,0" id="Connector-17" endpinid="Servo-5-in0" startpinid="Rail-3-outnod" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-33" labelx="-16" Show_id="false" y="8" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+
+Unique  Id: Connector-35: 
+Circuit Id: Connector-31
+<item itemtype="Connector" x="-712" valLabRot="0" valLabely="0" enodeid="Circ_eNode-36" circRot="0" boardRot="-1000000" labely="-24" pointList="-712,-92,-712,-48,-592,-48,-592,-92,-416,-92,-416,-120" circPos="0,0" id="Connector-31" endpinid="Arduino Uno-6-PB1" startpinid="Servo-5-in2" boardPos="-1e+06,-1e+06" vflip="1" objectName="Connector-35" labelx="-16" Show_id="false" y="-92" rotation="0" hflip="1" mainComp="false" labelrot="0" valLabelx="0"/>
+ 
+</circuit>
